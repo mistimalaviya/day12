@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change Button Text</title>
+</head>
+<body>
+    <h1 id="heading">mishti</h1>
+    <button id="myButton" onclick="changeText()">Click Me!</button>
+    <button id="resetButton" onclick="resetText()">Reset</button>
+
+    <script>
+        function changeText() {
+            document.getElementById("myButton").innerText = "Clicked!";
+        }
+
+        function resetText() {
+            document.getElementById("heading").innerText = "Welcome!";
+        }
+    </script>
+</body>
+</html>
